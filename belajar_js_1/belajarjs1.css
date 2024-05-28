@@ -1,0 +1,162 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #181818;
+    height: 130vh;
+    color: white;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    padding: 0px 30px;
+    background-color: #3a3539;
+    width: 40%;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.title-menu {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 30px;
+    border-bottom:2px solid rgba(255, 255, 255 );
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.makanan-container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.makanan-container > label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.makanan{
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    margin-right: 10px;
+}
+
+
+
+
+
+.menu-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.container-jumlah{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumlah {
+    width: 10%;
+    height: 65%;
+    background-color: #3a3539;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total-container{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.button-1{
+    width: 120px;
+    height: 45px;
+    background-color: #706b6f;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 0px 10px;
+    
+}
+
+.totalnya{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #706b6f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.total {
+    width:80% ;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
